@@ -25,8 +25,6 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   # jako zwykły program
   $ make run
 
-  # albo:
-  $ PYTHONPATH=. FLASK_APP=hello_world flask run
   ```
 
 - Uruchamianie testów (see: http://doc.pytest.org/en/latest/capture.html):
