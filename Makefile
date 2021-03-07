@@ -22,7 +22,7 @@ docker_run: docker_build
 				 -p 5000:5000 \
 				 -d hello-world-printer
 
-USERNAME=zdydekz123
+USERNAME=zdydekz12
 TAG=$(USERNAME)/hello-world-printer
 
 docker_push: docker_build
