@@ -33,6 +33,9 @@ def format_to_XML(msg, imie):
                 "<msg>" + msg + "</msg>" +
               "</greetings>")
 
+def format_to_imie_json():
+    imie = input("Podaj swoje imie: ")
+    return imie
 
 def plain_text(msg, imie):
     return imie + ' ' + msg
