@@ -9,4 +9,4 @@ scripts:
   - make test
   - make lint
   - make docker_build
-  - make docker_pushd
+  - make docker_push
